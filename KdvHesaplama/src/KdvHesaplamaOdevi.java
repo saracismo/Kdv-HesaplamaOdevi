@@ -11,6 +11,7 @@ public class KdvHesaplamaOdevi {
         kdvTutar = tutar * kdvOran;
         kdvliTutar = tutar + kdvTutar;
 
+
         System.out.println("KDV'siz Tutar :" + tutar);
         System.out.println("KDV Oranı :  " + kdvOran);
         System.out.println("KDV Tutarı:  " + kdvTutar);
@@ -22,8 +23,13 @@ public class KdvHesaplamaOdevi {
         boolean totalToplam2 = (tutar > 1000);
         kdvOran = 0.08; // %8 KDV
 
-        String str = totalToplam1 ? "kdvOran = 0.18" : "kdvOran = 0.08" ;
+
+
+        String str = totalToplam1 ? "KDV Oranı = 0.18" : "Yeni KDV Oranı = 0.08" ;
+
         System.out.print(str);
+
+
 
 
 
